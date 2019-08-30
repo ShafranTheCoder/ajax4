@@ -22,7 +22,7 @@ async function renderResponse() {
   root.removeChild(btn);
 }
 function getInfoFromIP(ip) {
-  return $.get(`https://ip-api.com/json/${ip}?fields=continent,country,regionName,city,district&lang=ru`);
+  return $.get(`http://ip-api.com/json/${ip}?fields=continent,country,regionName,city,district&lang=ru`);
 }
 
 function renderInfo(data, rootDiv) {
