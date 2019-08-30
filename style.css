@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  font-weight: normal;
+  box-sizing: border-box;
+  background-color: wheat;
+  color: white;
+  overflow: hidden;
+  
+
+
+  background: linear-gradient(270deg, #b314a3, #eb6411);
+background-size: 400% 400%;
+
+-webkit-animation: BGAnimation 30s ease infinite;
+-moz-animation: BGAnimation 30s ease infinite;
+-o-animation: BGAnimation 30s ease infinite;
+animation: BGAnimation 30s ease infinite;
+
+
+}
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  height: 100vh;
+  width: 100vw;
+  
+}
+.btn {
+  border: 1px solid white;
+  border-radius: 7px;
+  cursor: pointer;
+  background-color: transparent;
+  padding: 10px;
+  color: white;
+  outline: none;
+}
+.btn:hover {
+  background-color: #fff;
+  color: #b314a3;
+  border: 1px solid #b314a3;
+}
+a {
+  cursor: pointer;
+}
+
+@-webkit-keyframes BGAnimation {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-moz-keyframes BGAnimation {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-o-keyframes BGAnimation {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@keyframes BGAnimation { 
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
